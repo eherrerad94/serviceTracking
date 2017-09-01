@@ -50,8 +50,7 @@ app.disable("x-powered-by"); //Disable x-powered-by in rest
 _mongoose2.default.Promise = global.Promise;
 //here comes the db url //mongoose.connect(config.localhost)
 //mongo ds115124.mlab.com:15124/heroku_v0qrdd7j -u <dbuser> -p <dbpassword>
-
-_mongoose2.default.connection.openUri("mongodb://eduardo:eduardo@ds115124.mlab.com:15124/heroku_v0qrdd7j").then(function () {
+_mongoose2.default.connection.openUri("mongodb://eduardo:eduardo@@ds061355.mlab.com:61355/heroku_s6jxfrqh").then(function () {
     console.log("Connected to db successfully ");
 }).catch(function (err) {
     console.log("An error ocurred ", err);
